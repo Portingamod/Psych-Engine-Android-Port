@@ -15,10 +15,10 @@ class CoolUtil
 	public static var difficultyStuff:Array<Dynamic> = [
 		['Easy', '-easy'],
 		['Normal', ''],
-		['Hard', '-hard']
-	    ['Hell', '-hell']
+		['Hard', '-hard'], 
+	    ['Hell', '-hell'], 
     ];
-     
+       
 	public static function difficultyString():String
 	{
 		return difficultyStuff[PlayState.storyDifficulty][0].toUpperCase();
