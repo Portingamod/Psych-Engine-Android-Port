@@ -1,4 +1,4 @@
-package;
+	package;
 
 import flixel.FlxG;
 import openfl.utils.Assets;
@@ -16,8 +16,9 @@ class CoolUtil
 		['Easy', '-easy'],
 		['Normal', ''],
 		['Hard', '-hard']
-	];
-
+	    ['Hell', '-hell
+    ];
+     
 	public static function difficultyString():String
 	{
 		return difficultyStuff[PlayState.storyDifficulty][0].toUpperCase();
